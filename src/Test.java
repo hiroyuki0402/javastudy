@@ -33,7 +33,7 @@ public class Test {
 		}
 	}
 
-	/// システム入力
+	/// ランダムな数字の生成
 	/// - Parameters: enum ParameterBranch
 	/// - param: 用途の指定
 	/// - Returns: ランダムな数字
@@ -49,7 +49,7 @@ public class Test {
 	}
 
 	/// バトルの準備
-	/// - Parameters:
+	/// - Parameters: -
 	/// - Returns: -
 	static void batleSetUp() {
 		// FIXME: java構造体できるのか問題
@@ -63,7 +63,7 @@ public class Test {
 	}
 
 	/// バトル
-	/// - Parameters:
+	/// - Parameters: -
 	/// - Returns: -
 	static void isBattle() {
 		// TODO: 数字とじゃんけんを紐付ける（0 -> グー）
@@ -89,9 +89,9 @@ public class Test {
 	}
 
 	/// バトルのチェック
-	/// - Parameters:
-	/// - paramA: prayerの選択したじゃんけんの数字
-	/// - paramB: Computerの選択したじゃんけんの数字
+	/// - Parameters: じゃんけんの数字
+	/// - paramA: prayerの選択
+	/// - paramB: Computerのランダムな数字
 	/// - Returns: -
 	static void battleIsChecked(int player, int computer) {
 		// FIXME: きたない・冗長すぎ
@@ -124,7 +124,7 @@ public class Test {
 	}
 
 	/// 勝敗の判定
-	/// - Parameters:
+	/// - Parameters: -
 	/// - Returns: -
 	static void WinOrLoseChecked() {
 		// TODO: 再実施処理
