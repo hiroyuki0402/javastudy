@@ -66,8 +66,8 @@ public class Test {
 	/// - Parameters:
 	/// - Returns: -
 	static void isBattle() {
+		// TODO: 数字とじゃんけんを紐付ける（0 -> グー）
 		System.out.println("最初はぐー");
-
 		for (;;) {
 			if (playerHp > 0 && computerHp > 0) {
 				System.out.println("じゃんけん");
@@ -149,9 +149,9 @@ public class Test {
 		Int, String
 	}
 
-	public enum Hand {
-		Rock, paper, scissors
-	}
+//	public enum Hand {
+//		Rock, paper, scissors
+//	}
 }
 
 class Properties {
