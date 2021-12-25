@@ -92,7 +92,7 @@ public class Test {
 	/// - Parameters:
 	/// - paramA: prayerの選択したじゃんけんの数字
 	/// - paramB: Computerの選択したじゃんけんの数字
-	/// - Returns: 戻り値の説明
+	/// - Returns: -
 	static void battleIsChecked(int player, int computer) {
 		// FIXME: きたない・冗長すぎ
 		var damage = randomNumber(ParameterBranch.DAMAGE);
